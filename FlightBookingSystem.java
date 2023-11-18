@@ -103,6 +103,7 @@ public class FlightBookingSystem {
                     break;
                 case 2:
                     bookTicket(userId);
+                    System.out.println("Booking conformed");
                     break;
                 case 3:
                     System.out.println("Logging out. Goodbye!");
